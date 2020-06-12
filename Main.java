@@ -35,6 +35,8 @@ public class Main {
         minHeap.insert(2, "Tholley");
         minHeap.insert(1, "Hassan");
         minHeap.insert(0, "Francis");
+        System.out.println(minHeap.remove());
+        System.out.println();
         System.out.println("Done");
     }
 }
